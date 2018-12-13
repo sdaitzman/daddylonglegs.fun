@@ -5,7 +5,7 @@
 
 ::selection {
   color: white;
-  background: #F74E45;
+  background: #8D92B9;
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 
 body {
   box-sizing: border-box;
-  border-top: 10px solid #F74E45;
+  border-top: 10px solid #656eb3;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -51,32 +51,32 @@ a {
 }
 
 a:hover, a:focus {
-  color: #F74E45;
-  border-bottom-color: #F74E45;
+  color: #656eb3;
+  border-bottom-color: #656eb3;
 }
 
 a:active {
-  color: #fbc7c4;
-  border-bottom-color: #fbc7c4;
+  color: #8D92B9;
+  border-bottom-color: #8D92B9;
 }
 
 .go-back {
   font-weight: 500;
-  color: #F74E45;
-  border: 2px solid #F74E45;
+  color: #656eb3;
+  border: 2px solid #656eb3;
   background-color: white;
   padding: 20px;
   text-align: center;
 }
 
 .go-back:hover {
-  background-color: #F74E45;
+  background-color: #656eb3;
   color: white;
 }
 
 .go-back:active {
-  border-color: #FBC7C4;
-  background: #FBC7C4;
+  border-color: #8D92B9;
+  background: #8D92B9;
 }
 
 .projects {

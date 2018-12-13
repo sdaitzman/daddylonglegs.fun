@@ -9,7 +9,7 @@ html, body {
 
 ::selection {
   color: white;
-  background: #F74E45;
+  background: #656eb3;
 }
 
 html {
@@ -21,7 +21,7 @@ html {
 
 body {
   box-sizing: border-box;
-  border-left: 7vw solid #F74E45;
+  border-left: 7vw solid #656eb3;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -96,19 +96,19 @@ a {
 }
 
 a:hover, a:focus {
-  color: #F74E45;
-  border-bottom-color: #F74E45;
+  color: #656eb3;
+  border-bottom-color: #656eb3;
 }
 
 a:active {
-  color: #fbc7c4;
-  border-bottom-color: #fbc7c4;
+  color: #8D92B9;
+  border-bottom-color: #8D92B9;
 }
 
 .hero {
-  color: #F74E45;
+  color: #656eb3;
   /* width: 100%; */
-  border: 2px solid #F74E45;
+  border: 2px solid #656eb3;
   text-align: center;
   font-size: 48px;
   padding: 25px 200px;
@@ -117,18 +117,18 @@ a:active {
 
 .hero:hover {
   color: white;
-  background-color: #F74E45;
+  background-color: #656eb3;
 }
 
 .hero:active {
-  background-color: #fbc7c4;
-  border-color: #fbc7c4;
+  background-color: #8D92B9;
+  border-color: #8D92B9;
 }
 
 @media (max-width: 850px) {
   body {
     justify-content: start;
-    /* border-left: 7vh solid #F74E45; */
+    /* border-left: 7vh solid #656eb3; */
   }
   .about-me, .love-typer, .profiles {
     font-size: 18px;
