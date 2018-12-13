@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('[data-typer-targets]').typer()
-	}, 3000)
+	}, 1000)
 
 	$('body').toggleClass('done')
 
